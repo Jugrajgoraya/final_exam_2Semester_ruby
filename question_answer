@@ -1,0 +1,25 @@
+Answer the following questions with a sentence or two:
+
+Q.What is the difference between 1 == 1.0 and 1.eql? 1.0 ?
+
+==>> '==' is used to check if both values are equal or not. Where as,
+ 'eql?' is used to check if both of the values of A HASH refer to same key.
+
+      1 == 1.0 is 'true' and 1.eql? 1.0 is 'false'
+
+Q.What is the difference between Integer() and to_i ?
+
+==>> 'Integer()' method converts a string of Integer to an integer but throws error if string has something else than Integer but 'to_i'  can grab the integer part of that string and converts it into integer.
+
+Q.What is the difference between print and puts ?
+
+==>> we use puts to get output if we need a new line at the end of our result but
+prints does not add new line after result. 
+
+Q.What is the diffrence between a variable name prefixed with and without @ ?
+
+==>> a variable with a @ is an instance of variable while other is just normal variable.
+
+Q>Write a difference between lambdas and procs?
+
+==>> A lamda is a kind of proc which is deffer in returning the value; lambda will return normally, like a regular method, Procs on the other hand return from the method enclosing the proc.
